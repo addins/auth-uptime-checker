@@ -16,7 +16,7 @@ def check_auth(baseUrlNoPrefix, useHttps, authUri, username, password):
 
     authUrl = baseUrl + authUri
 
-    authRequestBody = {'username': username, 'password': password}
+    authRequestBody = {'username': username, 'password': password, 'concurrentId': 'a5cc4f6e-93b4-4c63-b187-c1e587738a46'}
     
 
     session = requests.Session()
